@@ -1,0 +1,22 @@
+#mother{
+	border:  red solid 1px ;
+}
+
+*{
+	margin : 0px;
+	/* 『*』是指所有東西都會做你所要的改變*/
+}
+
+
+
+p{
+	margin-bottom: 5px;
+	color : orange;
+}
+
+p:hover{color:red;}
+
+input[type = "submit"],input[type = "reset"],input[type = "button"],button{
+	width:100px;
+	height: 30px;
+}

@@ -1,0 +1,25 @@
+@font-face{
+	font-family: facebook;
+	src:url(fonts/facebook-letter-faces.ttf);
+	/*外掛字型方法*/
+}
+
+@keyframes slide{
+	/*0%{margin-left: 0px;}
+	25%{margin-left: 150px;}
+	50%{margin-left: 400px;}
+	100%{margin-left: 800px;}
+	設定動畫進度要做捨*/
+
+	/*0%{margin-left: 0%;}
+	100%{margin-left: 88%;}*/
+
+	from{margin-left: 0%;}
+	to{margin-left: 85%;}
+}
+
+img{
+	animation-name:slide;
+	animation-duration:2s;
+	animation-interation-count:3;
+}

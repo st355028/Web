@@ -1,0 +1,11 @@
+
+#box{
+	-webkit-column-count:3;
+	/*設定三個欄位*/
+	-webkit-column-rule:3px dashed #ccc;
+	-webkit-column-gap:20px ;
+}
+
+h2{
+	-webkit-column-span:all;
+}

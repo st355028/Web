@@ -1,0 +1,31 @@
+#text{
+	float: left; /*讓題目靠左顯示*/
+	width:25%; /*這裡是調題目與輸入框的距離*/
+	/*border:solid 1px green; 測試上述推論是否正確*/
+	font-family: Arial;
+	font-weight: 900;
+}
+
+#cowl
+{
+	border-top-color: #000000;
+	border-left-color: #000000;
+	border-right-color: blue;
+	border-bottom-color: blue;
+	background-color: #E3F2F7;
+	width: 400px; /*調整輸入框的寬度*/
+}
+
+#Title{
+	color:#1853B6; 
+	font-weight:900; 
+    font-family: Arial;
+}
+
+#button 
+{
+	border:solid 1px;
+	background-color:#AED8E5;
+	padding-left: 5px;
+	padding-right: 5px;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="">
+		<script src=""></script>
+		<title>newForm</title> 
+	</head>
+	<body>
+		<form >
+			<p>
+				<label>Search：</label>
+					<input type="search" name="search" 
+					placeholder="search-" >
+			</p>
+
+			<!-- placeholder跟value差別在於一樣會顯示，但當沒填寫時按送出value的值會被送出 -->
+
+			<p>
+				<label>E-mail：</label>
+					<input type="email" name="mail" 
+					placeholder="st355028@gmail.com" required>
+					<!-- 加入required這個屬性後該欄位則為必填 -->
+			</p>
+
+			<p>
+				<label>Number：</label>
+					<input type="number" name="number" value="" min="0" >
+			</p>
+
+			<p>
+				<label>Date：</label>
+					<input type="date" name="date" value=""  >
+			</p>
+
+			<p>
+				<label>Week：</label>
+					<input type="week" name="week" value=""  >
+			</p>
+
+		<hr>以下需要搭配程式
+
+			<p>
+				<label>Color：</label>
+					<input type="color" name="color" value=""  >
+			</p>
+
+			<p>
+				<label>Files：</label>
+					<input type="file" name="file" value=""  >
+			</p>
+
+			<p>
+				<label>Image：</label>
+					<input type="image" name="file" src="../images/limes.jpg"  >
+				<!-- 它可以幫助你抓到圖的Ｘ‘Ｙ座標 -->
+			</p>
+
+
+			
+				
+		<hr> 
+			<p><input type="submit" value="傳送鈕ssss"></p>
+		</form>
+	</body>
+</html>

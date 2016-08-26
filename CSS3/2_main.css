@@ -1,0 +1,45 @@
+#mother{
+	border:  red solid 1px ;
+}
+
+*{
+	margin : 0px;
+	/* 『*』是指所有東西都會做你所要的改變*/
+}
+
+/*p{
+	margin-top : 5px;
+	color : green;
+	針對Ｐ標籤做修改
+}*/
+
+/*Attribute selectors用法*/
+
+p[name = "silvia"]{
+	margin-bottom: 5px;
+	color : orange;
+}
+
+
+/*什麼都不加的話則必須完全符合關鍵字*/
+
+
+/*								
+								『＾』效果：你的資料『前面』關鍵字符合就好
+a[href ^= "http://"]{color :red;}
+http://google.com
+http://yahoo.com.tw*/
+
+
+/*
+								『$』效果：你的資料『後面』關鍵字符合就好
+a[href $= ".pdf"]{color : red;}  
+http://google.com.pdf;
+http://yahoo.com.pdf;*/
+
+/*
+								『＊』效果：你的資料裡只要有關鍵字就符合
+a[href *="google.com"]{color : red;} 
+http://google.com;
+https://google.com;
+http://fons.google.com;*/

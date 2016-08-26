@@ -1,0 +1,74 @@
+#skin{
+	border:3px dotted steelblue;
+	width:690px;
+	height: 410px;
+	text-align: center;
+	margin: 100px auto;
+	padding: 10px 0px;
+	border-radius: 20px;
+}
+
+/*nav{margin-left: 200px;}*/
+#playButton{
+	width: 90px;
+	height: 30px;
+	box-shadow: #8182b5 10px 5px 10px;
+	background-color: #eee;
+	font:110%  Comic Sans MS;
+	border-radius: 50px;
+	margin-top: 10px;
+	/*vertical-align: middle;*/
+	/*float: left;*/
+	
+}
+#stopButton{
+	width: 90px;
+	height: 30px;
+	box-shadow: #8182b5 10px 5px 10px;
+	background-color: #eee;
+	font:110%  Comic Sans MS;
+	border-radius: 50px;
+	
+}
+#voiceUpButton{
+	width: 90px;
+	height: 30px;
+	box-shadow: #8182b5 10px 5px 10px;
+	background-color: #eee;
+	font:110%  Comic Sans MS;
+	border-radius: 50px;
+}
+#voiceDownButton{
+	width: 90px;
+	height: 30px;
+	box-shadow: #8182b5 10px 5px 10px;
+	background-color: #eee;
+	font:110%  Comic Sans MS;
+	border-radius: 50px;
+}
+#mutueButton{
+	width: 90px;
+	height: 30px;
+	box-shadow: #8182b5 10px 5px 10px;
+	background-color: #eee;
+	font:110%  Comic Sans MS;
+	border-radius: 50px;
+}
+
+#defaultBar{
+	border:1px solid red;
+	width: 552px;
+	height: 20px;
+	box-shadow: #8182b5 10px 8px 5px;
+	margin:10px auto; 
+	border-radius: 10px;
+}
+#progressBar{
+	background: steelblue;
+	width: 0px;
+	height: 19px;
+	margin-top: 4px auto;
+	border-radius: 12px;
+	box-shadow: #8182b5 10px 8px 5px;
+
+}

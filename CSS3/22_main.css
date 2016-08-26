@@ -1,0 +1,35 @@
+@font-face{
+	font-family: facebook;
+	src:url(fonts/facebook-letter-faces.ttf);
+	/*外掛字型方法*/
+}
+
+@keyframes slide{
+	/*0%{margin-left: 0px;}
+	25%{margin-left: 150px;}
+	50%{margin-left: 400px;}
+	100%{margin-left: 800px;}
+	設定動畫進度要做捨*/
+
+	/*0%{margin-left: 0%;}
+	100%{margin-left: 88%;}*/
+
+	from{margin-left: 0%;}
+	to{margin-left: 85%;}
+}
+
+#box{
+	border:  green solid 1px;
+	width : 120px;
+	/*margin : 100px auto;*/
+	text-align: center;
+	font :normal 24px facebook,Tahoma,Verdana,Arial;
+	border-radius: 10px;
+	color: #3d579c;
+	}
+#box:hover{
+	animation-name:slide;
+	animation-duration :2s;
+	animation-iteration-count:3;
+	animation-direction:alternate;
+}

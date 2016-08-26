@@ -1,0 +1,13 @@
+#Text{
+	width: 380px;
+	line-height: 1.5;
+	font-family: Arial;
+	font-variant: left;
+	border: solid 1px green;
+	padding-left: 10px;
+	padding-right: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	top:75px;
+	left: 75px;
+}

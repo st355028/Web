@@ -1,0 +1,40 @@
+#box:first-child{
+	border:  green solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+	border-radius: 10px;
+	
+	/*box-shadow: rgba(255,0,0,0.4) 10px 10px 10px;
+	rgba裡的a是指alpha（透明度） 數值範圍0~1*/
+
+	box-shadow: rgb(255,0,0) 10px 10px,rgb(255,255,0) 20px 20px ;
+	/*外框陰影的設定，第二層陰影則是用『,』隔開且X Y值要大於第一個*/
+	text-shadow: rgb(255,0,0) 4px -4px 5px;
+	/*文字陰影的設定*/
+	}
+
+#box{
+	border:  green solid 1px;
+	width : 250px;
+	margin : 20px auto;
+	text-align: center;
+	font :bold 30px Comic Sans MS;
+	text-shadow: rgb(255,0,0) 4px -4px 5px;
+}
+
+#text1{
+	color : #fff;
+	text-shadow :#000 2px 2px 4px;
+}
+
+#text2{
+	text-shadow :#ff0 0px 0px 10px;
+	/*四邊的有陰影 x y 值設為0*/
+}
+
+＃text3{
+	color:#fff;
+	text-shadow :#f00 0px 0px 4px,#0f0 0px 0px 6px;
+}

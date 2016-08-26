@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+}
+h1{
+	font: bold 32px Tahoma ;	
+}
+
+h2{
+	font: bold 24px Tahoma ;	
+}
+
+h3{
+	font: bold 22px Tahoma ;	
+}
+
+h4{
+	font: bold 20px Tahoma ;	
+}
+body{background: #ccc;}
+#skin{
+	border: 1px solid #bbb;
+	margin:0px auto;
+	width: 80%;
+
+	background: #fff;
+}
+
+#top_header{
+	/*border: 1px solid blue;*/
+	padding: 15px;
+}
+
+#top_menu{
+	background: steelblue;
+	color: #fff;
+}
+
+#top_menu li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#top_menu ul{
+	-webkit-padding-start:20px;
+}
+
+#main_seletion{
+	/*border: 1px solid red;*/
+	float: left;
+	width: 70%;
+	margin:10px;
+	/*padding: 10px;*/
+}
+
+#side_news{
+	border-left: 1px solid #ccc;
+	float: left;
+	width: 23%;
+	margin:10px;
+	padding: 10px;
+}
+
+#the_footer{
+	border-top: 1px solid #bbb;
+	clear: both;
+	padding: 10px ;
+	text-align: center; 
+}
+
+article{
+	border :1px dashed steelblue;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+article footer{text-align: right;}
+
+h1,h2,h3,h4,p{margin-bottom: 6px;}
+
+
+/*RWD寫法   500px以下的環境*/
+@media only screen and (max-width: 500px){
+	body{
+		background-color: red;
+	}
+}
+
+/*RWD寫法   501px以上，1000px以下的環境*/
+
+@media only screen and (min-width: 501px) and (max-width: 1000px){
+	body{
+		background-color: green;
+	}
+}
+
+/*RWD寫法   1001px以上的環境*/
+@media only screen and (min-width: 1001px){
+	body{
+		background-color: yellow;
+	}
+}
+
+
+/*若是手機，依照裝置方向改變樣式*/
+
+/*直立*/
+
+@media screen and (orientation:portrait) {
+	body{
+		background-color: green;
+	}
+}
+
+
+
+
+/*橫放*/
+@media screen and (orientation:landscape) {
+	body{
+		background-color: yellow;
+	}
+}
+
+/*模擬各式情況*/
+@media only screen and (max-width: 500px){
+	body{
+	width: 100%;
+	background-color: red;
+	background-image: url(xxx.jpg);
+	background-size: cover;
+	text-align: center;
+	}
+	#content{
+	/*width: 800px;*/ /* 800px/1024px * 100% */
+	width: 78.125%;
+	padding:0.9765625%; /*10/1024*/
+	margin: 1.171875%; /*12/1024*/
+	}
+	footer{
+	width: 100%;
+	}
+	img{
+		max-width: 100%;
+	}
+	#myMovie{
+		max-width: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

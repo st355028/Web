@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="">
+		<script src=""></script>
+		<title>加入會員</title> 
+	</head>
+	<body>
+		<h2>加入會員</h2>
+		<form action="mailto:st355028@gmail.com" method="post" enctype="text">
+			<!-- form裡加入這個屬性action則可以讓你寫的檔案變成「網址」
+			範例 action="http://127.0.0.0/8080/register/php" -->
+			<!-- 當使用mailto method必須為post 以及enctype="text"這個屬性 -->
+			<p>
+				<label>姓名：</label>
+				<input type="text" name="name" size="10">
+				<!-- size調整顯示的物件大小 -->
+			</p>
+
+			
+				<fieldset>
+					<legend>姓名：</legend>
+					<input type="text" name="name" size="10">
+				</fieldset>
+				<!-- 補充標籤用法 -->
+
+				<table>
+					<tr>
+						<td>
+							<fieldset>
+								<legend>姓名：</legend>
+								<input type="text" name="name" size="10">
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+				<!-- fieldest（補充標籤）加入table後的用法	 -->
+
+				<table>
+					<tr>
+						<td>
+							<label>姓名：</label>
+							<input type="text" name="name" size="10">
+						</td>
+					</tr>
+				</table>
+				<!-- 不用fieldest（補充標籤）加入table的用法 -->
+				
+
+			<p>
+				<label> 密碼：</label>
+				<input type="password" name="pw">
+				<!-- <input type="text" name="pw"> type內容是text可顯示密碼，password則隱藏 -->
+			</p>
+
+			
+				<table>
+					<tr>
+						<td>
+							<fieldset>
+								<legend>密碼：</legend>
+								<input type="password" name="pw" size="10">
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+
+			
+			<p>
+				<label>性別：</label>
+				<input type="radio" name="gender" value="M">男
+				<input type="radio" name="gender" value="F" checked>女
+				<!-- 屬性多加一個checked可以把該資料預設為勾選狀態 -->
+				<input type="radio" name="gender" value="N" disabled>不告訴你
+				<!-- 屬性多加一個disable可以把該資料預設為不可勾選狀態 -->
+			</p>
+			<p>
+				<label>興趣：</label>
+				<input type="checkbox" name="interest" value="Read" checked>閱讀
+				<input type="checkbox" name="interest" value="Music">聽音樂
+				<input type="checkbox" name="interest" value="Diving">潛水
+			</p>
+			<p>
+				<label>血型：</label>
+				<select name="blood" size=""><!-- 這裡的ＳＩＺＥ是直接顯示幾個然後有捲軸 -->
+					<option value=""></option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="AB">AB</option>
+					<option value="O">O</option>
+				</select>
+
+			</p>
+			<p>
+				<label>留言：</label>
+				<textarea name="Message" rows="5" swap="off"></textarea>
+				<!-- 標籤間不要有空白，因為會被當成留言板的內容之一 -->
+			</p>
+			
+
+
+
+
+
+
+
+
+
+			<p>
+				<input type="submit" value="傳送鈕">
+				<input type="reset" value="重新填寫">
+				<input type="button" value="我是按鈕">
+				<button><img src="../images/smarrow.gif"></button>
+				<!-- 此時的圖檔一樣可以使用img的屬性去描述 -->
+			</p>
+		</form>
+	</body>
+</html>

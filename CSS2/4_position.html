@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="">
+		<script src=""></script>
+		<title>Position</title> 
+	</head>
+	<body>
+		<div style="font:bold 50px Comic Sans MS;
+		            color:green;
+		            position:absolute;
+		            top:100px;
+		            left:100px;">
+			Stylesheet
+		</div>
+
+		<div style="font:bold 50px Comic Sans MS;
+		            color:pink;
+		            position:absolute;
+		            top:103px;
+		            left:100px;">
+			Stylesheet
+		</div>
+		<!-- 當沒有z-index時兩個位置相同時先來在下後來在上 -->
+
+		<div style="font:bold 50px Comic Sans MS;
+		            color:green;
+		            position:absolute;
+		            top:10px;
+		            left:10px;
+		            z-index:15;">
+			Stylesheet
+		</div>
+
+		<div style="font:bold 50px Comic Sans MS;
+		            color:pink;
+		            position:absolute;
+		            top:13px;
+		            left:10px;
+		            z-index:3;">
+			Stylesheet
+		</div>
+		<!-- 有z-index時直接比較數字大小不用單位 數字大在上面 -->
+	</body>
+</html>

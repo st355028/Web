@@ -1,0 +1,12 @@
+#box{
+	border:  green solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+	border-radius: 10px;
+
+	background: yellow;
+	background: -webkit-radial-gradient(center,circle,yellow ,green );
+	
+	}

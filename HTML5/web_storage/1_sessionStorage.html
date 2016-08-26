@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="">
+		<script>
+			function show(){
+				if(sessionStorage["username"]==null){
+					var name = prompt("what is your name?");
+					sessionStorage["username"] = name;}
+				else
+					alert(sessionStorage["username"]);
+			}
+		</script>
+		<title>web storage</title> 
+	</head>
+	<body>
+		<button onclick="show()">Show Storage</button>
+	</body>
+</html>
+

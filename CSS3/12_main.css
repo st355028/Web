@@ -1,0 +1,20 @@
+#box{
+	border:  green solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+	border-radius: 10px;
+
+	/*background: yellow;*/
+
+	/*background: -webkit-linear-gradient(left,yellow 20%,red 50%,green 70%);
+	1.當你發現沒有打錯字的時候還是沒效果，可能瀏覽器不支援，所以要加上-webkit-
+	2.顏色的％數要按照大小排序，否則會出錯*/
+
+	/*background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+	想要幾個顏色自己設定！*/
+
+	background: -webkit-repeating-linear-gradient(red,orange 3%,yellow 4%);
+	/*使用repeating時，顏色『一定』要加％數*/
+	}

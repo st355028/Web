@@ -1,0 +1,12 @@
+.text{		width:370px; /*設定table寬度*/
+			text-align: left; /*文字靠左對齊*/
+			line-height: 1.5; /*設定行距*/
+			font-family:Arial; /*設定字體為無襯字型*/
+			background-color:#ffffff; /*設定table的背景顏色*/
+			padding-left: 10px; /*因為靠左對齊所以只要設定左邊內縮就好*/
+			border:1px solid green; 
+			position:absolute;
+		    top:75px;
+		    left:75px;}
+
+		    /*By 何旻曄 20150415_2347*/

@@ -1,0 +1,32 @@
+#box{
+	border:  red solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+
+	border-radius: 10px;
+	/*設定你邊角的弧度，數值越大越圓*/
+}
+
+#circle{
+	border:  red solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+
+	border-radius: 10px 100px;
+	/*兩個數值的話是左上以及右下
+	  四個數值的話則是順時針改變*/
+}
+
+#angle{
+	border:  red solid 1px;
+	margin : 100px auto;
+	height: 250px;
+	width : 250px;
+	
+
+	border-radius: 50%;
+}

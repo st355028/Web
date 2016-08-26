@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="">
+		<style>
+		div{		
+			        font:bold 50px Comic Sans MS;
+		            color:green;
+		            position:absolute;
+		            top:100px;
+		            left:100px;
+		    }
+		</style>
+		<script src=""></script>
+		<title>Embedded</title> 
+	</head>
+	<body>
+		<div>
+			Stylesheet
+		</div>
+
+		<div>
+			Stylesheet
+		</div>
+		<!-- 當沒有z-index時兩個位置相同時先來在下後來在上 -->
+
+		<div style="color:red;
+					top:150px;
+					left:130px;
+		            z-index:15;">
+			Stylesheet
+		</div>
+
+		<div style="z-index:3;
+		            top:150px;
+		            left:132;">
+			Stylesheet
+		</div>
+		<!-- 有z-index時直接比較數字大小不用單位 數字大在上面 -->
+	</body>
+</html>

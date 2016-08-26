@@ -1,0 +1,23 @@
+#box{
+	border:  green solid 1px;
+	width : 250px;
+	margin : 100px auto;
+	text-align: center;
+	font :bold 40px Comic Sans MS;
+	border-radius: 10px;
+	
+	/*transform:translate(0px,-10px);
+	移動物件*/
+
+	/*
+	transform:rotate(-45deg);
+	旋轉你的物件
+	數值正數：向右旋轉
+	數值負數：向左旋轉*/
+
+	/*transform:scale(2,0.7);
+	物件變形 數值大外放 數值小內縮 注意內容勿也會被影響*/
+
+	/*transform:skew(30deg,30deg);
+	物件斜切 有skew(x,y) skewX(x) skewY(y) */
+	}

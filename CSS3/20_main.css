@@ -1,0 +1,24 @@
+@font-face{
+	font-family: facebook;
+	src:url(fonts/facebook-letter-faces.ttf);
+	/*外掛字型方法*/
+}
+#box{
+	border:  green solid 1px;
+	width : 120px;
+	margin : 100px auto;
+	text-align: center;
+	font :normal 24px facebook,Tahoma,Verdana,Arial;
+	border-radius: 10px;
+	transition:width 5s, transform 3s,color 2s,background 2s,font-size 2s;
+	color:#3d579c;
+	/*控制速度 第二個秒速則是delay幾秒後再做另一個動作*/
+	}
+#box:hover{
+	width: 780px;
+	color:#fff;
+	background: #3d579c;
+	font-size: 48px;
+	/*transform:translate(0px,50px) rotate(30deg) scale(1,0.8);*/
+	transform:rotate(360deg);
+}

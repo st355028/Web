@@ -1,0 +1,25 @@
+#mother{
+	border:  red solid 1px ;
+}
+
+*{
+	margin : 0px;
+	/* 『*』是指所有東西都會做你所要的改變*/
+}
+
+p:not(.myClass){
+	margin-bottom: 5px;
+	color : green;
+}
+
+
+/*p:nth-child(even){
+	margin-bottom: 5px;
+	color : orange;
+}
+
+p:nth-child(odd){
+	margin-bottom: 5px;
+	color : red;
+}
+*/

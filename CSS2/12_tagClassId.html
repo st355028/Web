@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8"> 
+		<link rel="stylesheet" href="13_main.css">
+		<!-- -->
+		<script src=""></script>
+		<title>tagClassId</title> 
+	</head>
+	<body>
+		<div class="myClass" id="myId">Stylesheet</div>
+		<!-- 當同時引用時id優先順序最高 class次之 tag最後 -->
+	<hr>
+		<div>Stylesheet</div>
+		<div class="myClass">Stylesheet</div>
+		<div id="myId">Stylesheet</div>
+	</body>
+</html>
